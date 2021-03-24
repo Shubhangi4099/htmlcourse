@@ -1,0 +1,50 @@
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+ .gallery{
+    margin: 5px;
+    float: right;
+    width: 300px;
+    position: inherit;
+    padding: 0px;
+}
+.gallery img:hover{
+    border: 1px solid rgb(5, 5, 5);
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+.shubhu{
+    position: right;
+    top: 30%;
+    left: 50%;
+}
+header{
+    height:0;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(240, 229, 229);
+    padding: 5px 20px;
+    border: 1px solid rgb(31, 2, 2);
+    font-size: 20px;
+}
+body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)), url(bg10.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
